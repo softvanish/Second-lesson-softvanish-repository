@@ -1,5 +1,5 @@
 
-user_num = int(input("Please enter your four digit number: "))
+user_num = int(input("Please enter your five-digit number: "))
 
 num1, num2 = divmod(user_num, 10000)
 num2, num3 = divmod(num2, 1000)

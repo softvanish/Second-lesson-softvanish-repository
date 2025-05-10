@@ -3,7 +3,7 @@
 First variation without function "divmod"
 '''
 
-# user_num = int(input("Please enter your four digit number: "))
+# user_num = int(input("Please enter your four-digit number: "))
 #
 # num1 = user_num // 1000
 # num2 = user_num % 1000 // 100
@@ -19,7 +19,7 @@ First variation without function "divmod"
 Second variation with function "divmod"
 '''
 
-# user_num = int(input("Please enter your four digit number: "))
+# user_num = int(input("Please enter your four-digit number: "))
 # num1, num2 = divmod(user_num, 1000)
 # num2, num3 = divmod(num2, 100)
 # num3, num4 = divmod(num3, 10)
