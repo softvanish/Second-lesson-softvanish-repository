@@ -78,7 +78,7 @@
 # number = int(input("Enter your number: "))
 # number = 456
 # n1 = number // 100 # 2
-# n2 = number % 100 // 10 # 7
+# n2 = number % 100 // 10 # 5
 # n2_v2 = number // 10 % 10
 # n3 = number % 10
 #
