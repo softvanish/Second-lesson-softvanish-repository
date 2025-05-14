@@ -1,3 +1,7 @@
+'''
+Тестирую конструкцию def
+'''
+
 print("We will multiply your numbers!")
 
 num1 = int(input("Enter the first number: "))
@@ -8,3 +12,4 @@ def multiply(num1, num2):
 
 result = multiply(num1, num2)
 print(f"Your answer is: {result}")
+
