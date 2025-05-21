@@ -40,38 +40,41 @@ class Calculator:
 calc = Calculator()
 
 ###
+while True:
 
-print("It's my calculator, let's test it!")
+    print()
 
-num1 = int(input("Enter the first number: "))
-num2 = int(input("Enter the second number: "))
+    print("It's my calculator, let's test it!")
 
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
 
-operation = input("Choose your option \"+, -, *, /\": ")
+    operation = input("Choose your option \"+, -, *, /\": ")
 
-###
+    ###
 
-if operation == "+":
-    calc.add(num1, num2)
-    result = calc.add(num1, num2)
+    if operation == "+":
+        calc.add(num1, num2)
+        result = calc.add(num1, num2)
 
-elif operation == "-":
-    calc.substract(num1, num2)
-    result = calc.substract(num1, num2)
+    elif operation == "-":
+        calc.substract(num1, num2)
+        result = calc.substract(num1, num2)
 
-elif operation == "*":
-    calc.multiply(num1, num2)
-    result = calc.multiply(num1, num2)
+    elif operation == "*":
+        calc.multiply(num1, num2)
+        result = calc.multiply(num1, num2)
 
-elif operation == "/":
-    calc.divide(num1, num2)
-    result = calc.divide(num1, num2)
+    elif operation == "/":
+        calc.divide(num1, num2)
+        result = calc.divide(num1, num2)
 
-else:
-    print("Wrong")
-    result = None
+    else:
+        print("Wrong")
+        result = None
 
-###
+    ###
 
-if result is not None:
-    print(f"Your result: {result} ")
+    if result is not None:
+        print(f"Your result: {result} ")
+
