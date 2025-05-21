@@ -57,3 +57,15 @@ while True:
     if result is not None:
         print(f"Your result: {result} ")
 
+    print("____" * 10)
+
+    next = input("Do you want to try again? (Yes or Not): ")
+
+    print("____" * 10)
+
+    if next.title() != "Yes":
+        print("Bye!")
+        break
+
+
+
