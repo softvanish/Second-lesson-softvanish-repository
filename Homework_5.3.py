@@ -51,7 +51,11 @@ while True:
         new_hash = "".join(hashtag_with_split)
         new_hash1 = "#" + new_hash
 
-    print()
+    new_hash1 = new_hash1[:140]
+
+
+    print(len(new_hash1))
+
     print(new_hash1)
 
 ###
