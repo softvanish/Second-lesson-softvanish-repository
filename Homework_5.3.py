@@ -53,8 +53,6 @@ while True:
 
     new_hash1 = new_hash1[:140]
 
-    print(len(new_hash1))
-
     print(new_hash1)
 
 ###
