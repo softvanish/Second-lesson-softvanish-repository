@@ -3,16 +3,24 @@
 import string
 
 letters = list(string.ascii_letters)
+punctuation = list(string.punctuation)
+
+###
 
 while True:
 
     number = input("Enter your number: ")
 
-    if number in letters:
+    if (
+        not number.isdigit()
+    ):
+
         print("You have to type in a number")
         continue
     else:
         break
+
+###
 
 while int(number) > 9:
     result = 1
