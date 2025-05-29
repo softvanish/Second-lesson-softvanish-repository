@@ -6,13 +6,13 @@
 
 
 
-# def say_hi(name, age):
-#     print(f"Hello. My name is {name} and I'm {age} years old!")
-#
-# user_name = input("Enter your name please: ")
-# user_age = input("Enter your age please: ")
-#
-# say_hi(user_name, user_age)
+def say_hi(name, age):
+    print(f"Hello. My name is {name} and I'm {age} years old!")
+
+user_name = input("Enter your name please: ")
+user_age = input("Enter your age please: ")
+
+say_hi(user_name, user_age)
 
 
 
