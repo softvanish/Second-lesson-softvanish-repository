@@ -1,21 +1,35 @@
-def difference(*args):
 
-    if (args):
-        min_num = min(*args)
-        max_num = max(*args)
-        result = max_num - min_num
+# # def disemvowel(string_):
+# #     vowels = "aeiouAEIOU"
+# #     lst = []
+# #
+# #     for i in string_:
+# #         if i not in vowels:
+# #             lst.append(i)
+# #
+# #     return "".join(lst)
+# #
+# # print(disemvowel("This website is for losers LOL!"))
+#
+# def unique_in_order(sequence):
+#     result = []
+#     sym = None
+#     for i in sequence:
+#         if i != sym:
+#             result.append(i)
+#             sym = i
+#
+#     return result
+#
+#
+# print(unique_in_order('AAAABBBCCDAABBB'))
 
-        return result
+# a = (1, 2, [3, 6], 4, 5)
+# a[2][0] = 0
+# print(a)
 
-    else:
-        return 0
+def reverse_words(sentence):
+    words = list[sentence]
+    return words
 
-
-
-assert difference(10.2, -2.2, 0, 1.1, 0.5) == 12.4, 'Test3'
-print('OK')
-
-# assert difference(1, 2, 3) == 2, 'Test1'
-# assert difference(5, -5) == 10, 'Test2'
-# assert difference() == 0, 'Test4'
-
+print(reverse_words("i love music"))
