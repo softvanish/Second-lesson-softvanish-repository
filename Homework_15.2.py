@@ -5,20 +5,6 @@ class Fraction:
             raise ValueError("Denominator cannot be zero.")
         self.a = a
         self.b = b
-        #self.__reduce()
-
-    def __reduce(self):
-        def gcd(x, y):
-            while y:
-                x, y = y, x % y
-            return x
-
-        sign = -1 if (self.a > 0 > self.b) or \
-                     (self.a < 0 < self.b) else 1
-        a_abs, b_abs = abs(self.a), abs(self.b)
-        g = gcd(a_abs, b_abs)
-        self.a = sign * (a_abs // g)
-        self.b = b_abs // g
 
     def __clone(self):
         return Fraction(self.a, self.b)
