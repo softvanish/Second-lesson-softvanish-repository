@@ -6,9 +6,6 @@ class Fraction:
         self.a = a
         self.b = b
 
-    def __clone(self):
-        return Fraction(self.a, self.b)
-
     def __mul__(self, other):
         if isinstance(other, Fraction):
             return Fraction(self.a * other.a, self.b * other.b)
